@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    background-color: #e9ecef;
+}
+
+.formCustom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.customText{
+    color: red !important;
+}
+
+.btn-primary{
+    margin: 0 auto;
+}
+
+/*ESTAS CLASES SE USARAN PARA VALIDAR EL FORMULARIO ON TIME
+
+.is-invalid{
+    border: 1px solid red;
+}
+.is-valid{
+    border: 1px solid green;
+}
+
+*/

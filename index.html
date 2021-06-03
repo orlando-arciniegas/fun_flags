@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with flags</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/bc10f2bde4.js" crossorigin="anonymous"></script>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icono.png" type="image/png">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fun with flags</h1>
+            <p class="lead">Here you can find your favorite flag by country name.</p>
+            <small class="form-text text-muted">We love Sheldon Cooper from The Big Bang Theory.</small>
+        </div>
+        
+    </div>
+    <div class="container">
+        <form action="" class="formCustom" id="form" method="POST">
+
+            <div class="input-group mb-3">
+                <input type="text" id="field" class="form-control" placeholder="Country name"
+                    aria-label="Country name" aria-describedby="btn">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit" id="btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <small id="msgError" class="form-text text-muted customText"></small>
+        </form>
+
+    </div>
+    <div class="container">
+        <div id="output"></div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="main.js"></script>
+</body>
+</html>
